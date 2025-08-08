@@ -124,13 +124,15 @@ body {
   align-items: flex-start;
   gap: 30px;
   margin-bottom: 60px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; 
 }
 
 .project img {
-  width: 360px;
-  height: auto;
+  width: 280px;
+  height: 200px;
+  object-fit: cover;  
   border-radius: 50px;
+  flex-shrink: 0;   
 }
 
 .project ul {
